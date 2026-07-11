@@ -116,17 +116,7 @@ python analyze.py            # → metrics_by_density.csv + prints p/q tables
 | `build_matrices.py` | `nyu_matched.csv`, `.1D` files | `nyu_matrices.npz` | Loads each subject's regional time series, computes the 116×116 Pearson correlation matrix. |
 | `analyze.py` | `nyu_matrices.npz` | `metrics_by_density.csv` | Proportional thresholding across densities; computes five graph metrics; paired Wilcoxon tests (raw and FC-corrected) with FDR correction. |
 
-### Figures
 
-| Script | Output | Description |
-|---|---|---|
-| `plot_matrices.py` | `fig_pairs.png` | Connectivity matrices for two representative matched pairs (one male, one female): ADHD vs matched control. |
-| `plot_metric_curves.py` | `fig_metric_curves.png` | Group-level graph metrics vs density, ADHD vs control means with SEM error bands (the main statistical figure). |
-| `plot_metrics.py` | `fig_metrics.png` | Bar chart of the five metrics for the four subjects of the two representative pairs (illustrative). |
-| `plot_network.py` | `fig_network.png` | Abstract network layout (spring) of one ADHD subject, nodes coloured by Louvain community. |
-| `plot_glassbrain.py` | `fig_glassbrain.png` | Anatomical glass brain (2D, nilearn), nodes at AAL MNI centroids. |
-| `plot_glassbrain_3d.py` | `brain3d.html` | Interactive 3D glass brain (nilearn `view_connectome`). |
-| `plot_glassbrain_plotly.py` | `brain3d_spheres.html` | Interactive 3D glass brain with spherical nodes, cortical shell, and edges (plotly). |
 
 ### Helper / verification scripts
 
@@ -160,16 +150,16 @@ python analyze.py            # → metrics_by_density.csv + prints p/q tables
 
 ## Key references
 
-- van den Heuvel M.P. et al. *Proportional thresholding in resting-state fMRI
+- ADHD-200 Consortium. Frontiers in Systems Neuroscience 6:62, 2012.
+- Fornito A., Zalesky A., Bullmore E.T. *Fundamentals of Brain Network
+  Analysis.* Academic Press, 2016.
+- Van den Heuvel M.P. et al. *Proportional thresholding in resting-state fMRI
   functional connectivity networks and consequences for patient-control
   connectome studies.* NeuroImage 152:437–449, 2017.
 - Wang L. et al. *Altered small-world brain functional networks in children with
   ADHD.* Human Brain Mapping 30(2):638–649, 2009.
-- Rubinov M., Sporns O. *Complex network measures of brain connectivity.*
-  NeuroImage 52(3):1059–1069, 2010.
-- Fornito A., Zalesky A., Bullmore E.T. *Fundamentals of Brain Network
-  Analysis.* Academic Press, 2016.
-- ADHD-200 Consortium. Frontiers in Systems Neuroscience 6:62, 2012.
+
+
 
 ---
 
