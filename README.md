@@ -118,14 +118,6 @@ python analyze.py            # → metrics_by_density.csv + prints p/q tables
 
 
 
-### Helper / verification scripts
-
-| Script | Purpose |
-|---|---|
-| `verify_site_code.py` | Confirms that the `NYU/` folder corresponds to `Site == 5` by cross-referencing subject IDs with the TSV. |
-| `count_site5.py` | Counts `Site == 5` subjects at each filtering stage. |
-| `find_missing.py` | Lists subjects present in the TSV but missing their time-series files on disk. |
-
 ---
 
 ## Method notes
@@ -150,14 +142,21 @@ python analyze.py            # → metrics_by_density.csv + prints p/q tables
 
 ## Key references
 
-- ADHD-200 Consortium. Frontiers in Systems Neuroscience 6:62, 2012.
-- Fornito A., Zalesky A., Bullmore E.T. *Fundamentals of Brain Network
-  Analysis.* Academic Press, 2016.
-- Van den Heuvel M.P. et al. *Proportional thresholding in resting-state fMRI
-  functional connectivity networks and consequences for patient-control
-  connectome studies.* NeuroImage 152:437–449, 2017.
-- Wang L. et al. *Altered small-world brain functional networks in children with
-  ADHD.* Human Brain Mapping 30(2):638–649, 2009.
+-ADHD-200 Consortium. The ADHD-200 Consortium: A Model to Advance the Translational Potential of Neuroimaging in Clinical Neuroscience. Frontiers in Systems   Neuroscience, 6:62, 2012. doi:10.3389/fnsys.2012.00062.
+
+
+-ADHD-200 Consortium. ADHD-200 Preprocessed Repository.Neuroimaging Informatics Tools and Resources Clearinghouse (NITRC), Preprocessed Connectomes Project. Available at:https://www.nitrc.org/frs/?group_id=383. Accessed July 2026.
+
+
+-ADHD-200 Consortium. ADHD-200 Phenotypic Key.Supplementary documentation for the ADHD-200 Sample. Neuroimaging Informatics Tools and Resources Clearinghouse (NITRC). Available at: https://fcon_1000.projects.nitrc.org/indi/adhd200/general/ADHD-200_PhenotypicKey.pdf. Accessed July 2026.
+
+-Fornito A., Zalesky A., Bullmore E.T. Fundamentals of Brain Network Analysis. Academic Press, 2016.
+
+-Van den Heuvel M.P., de Lange S.C., Zalesky A., Seguin C., Yeo B.T.T., Schmidt R. Proportional thresholding in resting-state fMRI functional connectivity networks and consequences for patient-control connectome studies: Issues and recommendations. NeuroImage 152:437--449, 2017.
+
+-Wang L., Zhu C., He Y., Zang Y., Cao Q., Zhang H., Zhong Q., Wang Y. Altered small-world brain functional networks in children with attention-deficit/hyperactivity disorder. Human Brain Mapping 30(2):638--649, 2009.
+
+-Zalesky A., Fornito A., Bullmore E.T. Network-based statistic: identifying differences in brain networks. NeuroImage 53(4):1197--1207, 2010.
 
 
 
