@@ -1,5 +1,5 @@
 # ComplexNetworksProject2026
-# Functional Brain Network Organization in ADHD
+# Functional brain network organization in ADHD: how robust are case-control differences?
 
 A graph-theoretic case–control analysis of resting-state functional brain
 networks in children with ADHD, built on the **ADHD-200** dataset. The project
